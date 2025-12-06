@@ -15,4 +15,4 @@ My research interests focus on optimization theory and its applications in effic
 
 Hobbies
 ======
-I like listening to music, watching movies, and working out.
+I like listening to music, watching movies, and working out. 
