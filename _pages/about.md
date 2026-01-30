@@ -14,10 +14,9 @@ Hi, my name is Hanzhang Wang (王含章), and I am currently studying at the Sch
 Research Interests
 ======
 My primary research interests focus on optimization theory and its applications in Large Language Models, including:
-* Quantization of LLMs: Developing techniques to reduce the computational and memory footprint of large models.
-* Zeroth-Order Optimization: Investigating methods for optimizing LLMs without explicit gradient information.
-* Mitigating LLM Hallucinations: Exploring novel frameworks and loss functions to reduce the generation of factually incorrect or nonsensical information.
-
+* LLM Quantization: Developing advanced techniques to mitigate the computational and memory overhead of large-scale models.
+* Zeroth-Order Optimization: Investigating gradient-free optimization methods to enhance LLM performance.
+* Landscape Exploration: Improving LLM training and fine-tuning by analyzing and navigating the underlying loss landscape.
 
 Hobbies : )
 ======
