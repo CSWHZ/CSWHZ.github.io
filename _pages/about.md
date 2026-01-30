@@ -16,7 +16,7 @@ Research Interests
 My primary research interests focus on optimization theory and its applications in Large Language Models, including:
 * LLM Quantization: Developing advanced techniques to mitigate the computational and memory overhead of large-scale models.
 * Zeroth-Order Optimization: Investigating gradient-free optimization methods to enhance LLM performance.
-* Landscape Exploration: Improving LLM training and fine-tuning by analyzing and navigating the underlying loss landscape.
+* Landscape Exploration: Improving LLM training and fine-tuning by analyzing and navigating the loss landscape.
 
 Hobbies : )
 ======
