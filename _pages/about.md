@@ -14,7 +14,7 @@ Hi, my name is Hanzhang Wang (王含章). I am a first-year Ph.D. student in the
 Research Interests
 ======
 My research interests focus on:
-* **Large Language Model Pretraining:** Improving pretraining itself and enhancing generalization to downstream tasks.
+* **LLM Pretraining:** Improving pretraining itself and enhancing generalization to downstream tasks.
 * **Efficient AI:** Developing efficient methods for large language models, with a focus on model quantization and zeroth-order optimization algorithms.
 
 Hobbies : )
