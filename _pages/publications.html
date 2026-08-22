@@ -5,32 +5,19 @@ permalink: /publications/
 author_profile: true
 ---
 
-{% if site.author.googlescholar %}
-  <div class="wordwrap">You can also find my articles on <a href="{{site.author.googlescholar}}">my Google Scholar profile</a>.</div>
-{% endif %}
+<article>
+  <h2><a href="https://scholar.google.com/citations?view_op=view_citation&amp;hl=en&amp;user=XqJgsfIAAAAJ&amp;citation_for_view=XqJgsfIAAAAJ:qjMakFHDy7sC">Anchor-Induced Serial Tensor Representation for Multi-View Clustering</a></h2>
+  <p><strong>Hanzhang Wang</strong>, Zonglin Liu, Zhiwei Zhong, Qiangqiang Shen, Yongsheng Liang, and Yongyong Chen</p>
+  <p><em>IEEE Transactions on Circuits and Systems for Video Technology</em> (Journal), 2026</p>
+</article>
 
-{% include base_path %}
+<hr />
 
-<!-- New style rendering if publication categories are defined -->
-{% if site.publication_category %}
-  {% for category in site.publication_category  %}
-    {% assign title_shown = false %}
-    {% for post in site.publications reversed %}
-      {% if post.category != category[0] %}
-        {% continue %}
-      {% endif %}
-      {% unless title_shown %}
-        <h2>{{ category[1].title }}</h2><hr />
-        {% assign title_shown = true %}
-      {% endunless %}
-      {% include archive-single.html %}
-    {% endfor %}
-  {% endfor %}
-{% else %}
-  {% for post in site.publications reversed %}
-    {% include archive-single.html %}
-  {% endfor %}
-{% endif %}
+<article>
+  <h2><a href="https://scholar.google.com/citations?view_op=view_citation&amp;hl=en&amp;user=OepYczoAAAAJ&amp;sortby=pubdate&amp;citation_for_view=OepYczoAAAAJ:LkGwnXOMwfcC">Robust Non-negative Proximal Gradient Algorithm for Inverse Problems</a></h2>
+  <p><strong>Hanzhang Wang</strong>, Zonglin Liu, Jingyi Xu, Chenyang Wang, Zhiwei Zhong, and Qiangqiang Shen</p>
+  <p>Preprint, 2025</p>
+</article>
 
-
+<p>You can also find my work on <a href="{{ site.author.googlescholar }}">Google Scholar</a>.</p>
 
