@@ -11,8 +11,8 @@ locale                   : "en-US"
 site_theme               : "default" # Currently available options are "default", "air"
 title                    : "Homepage"
 title_separator          : "-"
-name                     : &name "Your Name"
-description              : &description "Your Name's academic portfolio"   # Update this with a general description of your site, this is the default if not overridden by a page
+name                     : &name "Hanzhang Wang"
+description              : &description "Hanzhang Wang's academic homepage"   # Update this with a general description of your site, this is the default if not overridden by a page
 url                      : https://CSWHZ.github.io # The base hostname & protocol for your site e.g. "https://[your GitHub username].github.io",
                                                            # or if you already have some other page hosted on Github then use "https://[your GitHub username].github.io/[Your Repo Name]"
 baseurl                  : "" # the subpath of your site, e.g. "/blog"
@@ -26,11 +26,11 @@ author:
   avatar           : "photo.jpg"
   name             : "Hanzhang Wang"
   pronouns         : # example: "she/her"  
-  bio              : "Computer Science"
-  location         : "China"
-  employer         : "HITSZ"
+  bio              : "First-year Ph.D. Student in Computer Science"
+  location         : "Hong Kong"
+  employer         : "CityUHK"
   uri              : # URL
-  email            : "whanzhang@outlook.com" 
+  email            : "hanzwang6-c@my.cityu.edu.hk"
 
   # Academic websites
   academia         : # URL
