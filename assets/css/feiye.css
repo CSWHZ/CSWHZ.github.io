@@ -61,7 +61,9 @@ strong { font-weight: 600; color: var(--color-text); }
 .hero-links li + li::before { content: "·"; color: #8193a9; margin-inline: .65rem; }
 .hero-links a { text-decoration: none; }
 .hero-links a:hover { text-decoration: underline; }
-.hero-avatar { flex: 0 0 auto; display: block; width: clamp(108px, 14vw, 158px); height: auto; aspect-ratio: 158 / 186; object-fit: cover; object-position: 50% 40%; border: 1px solid var(--color-border); }
+.hero-avatar { flex: 0 0 auto; position: relative; display: block; width: clamp(108px, 14vw, 158px); aspect-ratio: 158 / 186; overflow: hidden; border: 1px solid var(--color-border); }
+/* Crop only the sides and bottom; preserve the full-resolution photo and its top edge. */
+.hero-avatar-image { position: absolute; top: 0; left: 50%; display: block; width: 128.5%; max-width: none; height: auto; transform: translateX(-50%); }
 .section { padding-block: .25rem 1.75rem; scroll-margin-top: 5rem; }
 .section-heading { border-top: 1px solid var(--color-border); padding-top: 1.2rem; margin: 0 0 1.3rem; font: 500 clamp(1.5rem, 2vw, 1.7rem)/1.2 var(--font-serif); letter-spacing: -.015em; }
 .section p { margin: 0 0 1rem; color: var(--color-secondary); }
