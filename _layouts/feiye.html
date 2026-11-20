@@ -41,7 +41,9 @@
             {% if site.author.github %}<li><a href="https://github.com/{{ site.author.github | escape }}">GitHub</a></li>{% endif %}
           </ul>
         </div>
-        <img class="hero-avatar" src="{{ '/images/photo.jpg' | relative_url }}" alt="Hanzhang Wang" width="158" height="186" fetchpriority="high">
+        <div class="hero-avatar">
+          <img class="hero-avatar-image" src="{{ '/images/photo.jpg' | relative_url }}" alt="Hanzhang Wang" width="1523" height="1872" fetchpriority="high">
+        </div>
       </div>
     </section>
     {{ content }}
