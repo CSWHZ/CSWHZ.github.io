@@ -29,6 +29,7 @@
   --color-muted: #63758b;
   --color-accent: #225fa5;
   --color-border: #dce4ee;
+  --content-width: 58rem;
   --font-serif: "Newsreader", Georgia, "Times New Roman", "Songti SC", "STSong", serif;
   --font-mono: "JetBrains Mono", "SF Mono", Menlo, Consolas, monospace;
   --font-sans: "Inter", -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
@@ -41,7 +42,7 @@ a:hover { color: var(--color-accent); text-decoration-color: var(--color-accent)
 strong { font-weight: 600; color: var(--color-text); }
 ::selection { background: #dce9f7; }
 :focus-visible { outline: 2px solid var(--color-accent); outline-offset: 5px; }
-.content-container { width: min(100% - clamp(2.25rem, 8vw, 7rem), 1100px); margin-inline: auto; }
+.content-container { width: min(100% - clamp(2.25rem, 8vw, 7rem), var(--content-width)); margin-inline: auto; }
 .skip-link { position: fixed; left: 1rem; top: -5rem; z-index: 100; background: var(--color-text); color: white; padding: .5rem 1rem; font: .875rem/1.6 var(--font-sans); }
 .skip-link:focus { top: .5rem; }
 .site-header { position: sticky; top: 0; z-index: 10; padding-block: 1rem; background: rgba(247,249,252,.95); }
@@ -65,7 +66,7 @@ strong { font-weight: 600; color: var(--color-text); }
 .section-heading { border-top: 1px solid var(--color-border); padding-top: 1.2rem; margin: 0 0 1.3rem; font: 500 clamp(1.5rem, 2vw, 1.7rem)/1.2 var(--font-serif); letter-spacing: -.015em; }
 .section p { margin: 0 0 1rem; color: var(--color-secondary); }
 .section p:last-child { margin-bottom: 0; }
-.intro { max-width: 58rem; }
+.intro { width: 100%; }
 .intro a, .section p a { color: var(--color-text); }
 .research-list { margin: 0; padding: 0; list-style: none; }
 .research-list li { margin-block: 0 .55rem; color: var(--color-secondary); }
@@ -74,6 +75,7 @@ strong { font-weight: 600; color: var(--color-text); }
 .row + .row { margin-top: 1rem; }
 .row-label { flex: 0 0 8.5rem; font: 400 .875rem/1.8 var(--font-mono); letter-spacing: .015em; color: var(--color-muted); }
 .row-body { flex: 1 1 25rem; min-width: 0; }
+#publications article.row { display: block; }
 .row-title { margin: 0; font: 500 1.1875rem/1.45 var(--font-serif); }
 .row-title a { text-decoration: none; }
 .row-title a:hover { text-decoration: underline; }
