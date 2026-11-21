@@ -16,7 +16,7 @@ redirect_from:
 
 <section class="section" id="research" aria-labelledby="research-heading">
   <h2 class="section-heading" id="research-heading">Research Interests</h2>
-  <p>My research interests focus on:</p>
+  <p>My research interests focus on optimization and its applications in large language models.</p>
   <ul class="research-list">
     <li><strong>LLM Pretraining:</strong> Improving pretraining itself and enhancing generalization to downstream tasks.</li>
     <li><strong>Efficient AI:</strong> Developing efficient methods for large language models, with a focus on model quantization.</li>
